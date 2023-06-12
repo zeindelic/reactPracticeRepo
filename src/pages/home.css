@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.productCard{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: solid white 2px;
+    border-radius: 30px;
+    width: 30%;
+    height: 60vh;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+.homeMain{
+    background-color: lightgray;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.prodImage{
+   width: 30%;
+}
+.prodPrice{
+    font-size: 20px;
+}
+.prodTitle{
+    font-size: 30px;
+}
