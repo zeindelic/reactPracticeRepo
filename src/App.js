@@ -71,8 +71,8 @@ return(
 
   <div className='Main'>
     
-    <ReactQuery/>
-{/* 
+    {/* <ReactQuery/> */}
+
     <Header />
 <Routes>
         <Route path='/' element={<Home />} />
@@ -81,7 +81,7 @@ return(
         <Route path="jewelry" element={<JewelryFunc/>} />
         <Route path="electronics" element={<ElectronicsFunc/>} />
 
-      </Routes>  */}
+      </Routes> 
       </div>
 
 
