@@ -19,6 +19,7 @@ import ParentPracFunc from './props/ParentPrac';
 import Box from '@mui/material/Box'
 import inputFunc from './components/inputFilter';
 import ReactQuery from './components/query/query';
+import WeatherAppFunc from './components/weather app/weatherApp';
 {/* <Header /> 
       <Routes>
         <Route path='/' element={<Home />} />
@@ -68,12 +69,12 @@ function App() {
       
   
 return(
-
-  <div className='Main'>
-    
+  <div className='main'>
+    <WeatherAppFunc/>
     {/* <ReactQuery/> */}
+    
 
-    <Header />
+    {/* <Header />
 <Routes>
         <Route path='/' element={<Home />} />
         <Route path="men's Fashion" element={<MensFashion/>} />
@@ -81,7 +82,7 @@ return(
         <Route path="jewelry" element={<JewelryFunc/>} />
         <Route path="electronics" element={<ElectronicsFunc/>} />
 
-      </Routes> 
+      </Routes>  */}
       </div>
 
 
