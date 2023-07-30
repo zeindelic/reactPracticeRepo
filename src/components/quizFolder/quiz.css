@@ -1,0 +1,28 @@
+.main{
+    width: 100%;
+    height: 100%;
+}
+
+.mainCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 50vh;
+    margin-top: 150px;
+    background-color: lightblue;
+}
+.mainCard ul{
+    list-style-type: none;
+
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons button{
+padding: 10px;
+}
+
